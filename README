@@ -1,0 +1,12 @@
+A very simple password generator in python
+
+username (if any) + '#' + Input highest-level site-domain without uri as $1
+
+for example,
+
+https://login.example.com becomes example.com therefore enter="email@example.com#example.com"
+
+ftp://another.example.co.uk becomes example.co.uk therefore enter="username#example.co.uk"
+
+because otherwise all sites with second level tlds would be that tld
+
